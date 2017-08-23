@@ -1,0 +1,125 @@
+body {
+  padding-bottom: 40px;
+  margin: 0px auto;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+
+}
+
+.display-block{
+	display:block;
+} 
+
+.display-none{
+	display:none;
+}
+
+.circle {
+	
+	border: 6px solid #333;
+	border-radius: 10px;
+	width: 30%;
+}
+
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.sr-on {
+
+    color: #337AB7;
+    padding-top: 5px;
+    font-weight: normal;
+}
+
+.addit {
+
+    padding-top: 2px !important;
+    margin-top: -2px !important;
+}
+
+.move-content {
+
+    margin-top: 6px;
+}
+
+#btn-custom {
+
+    background-color: #337AB7 !important;
+    border:0px;
+    transition: background 1s ;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+}
+
+
+
+#btn-custom:hover {
+
+    background: #245269 !important;
+}
+
+
+#btn-twitter {
+
+    background: #ff4b4b !important;
+    border:0px solid #000;
+    transition: opacity 1s ;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+#btn-twitter:hover {
+
+    /*background: #286090 !important;*/
+    opacity: 0.8;
+}
+
+
+#ft {
+
+    text-align: center;
+    color: #666666;
+}
+
+#ft a{
+
+    color: #A700A7;
+}
+

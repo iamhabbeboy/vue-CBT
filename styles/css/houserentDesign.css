@@ -1,0 +1,768 @@
+/*
+
+   Project Title: CBT
+   Company: Elite Software ltd.
+   Designer: abiodun, solomon < elitecode >
+   Date: 05/06/2015
+   Version: 0.0.01
+
+---------------------------------------
+*/
+
+
+/*
+    GLOBAL VARIABLES
+=========================================
+*/
+
+
+
+.clearAll {
+
+    clear: both;
+}
+
+.mi {
+
+    color: #A700A7;
+}
+
+.mi-1 {
+
+    color: #993300;
+}
+
+.addon {
+
+    color: green;
+}
+/* HOUSE HEADER
+----------------------------------------
+*/
+
+.masthead {
+
+    /*background: red !important;*/
+}
+
+.inner-masthead-houserent {
+
+    width: 75%;
+    margin:auto;
+
+}
+
+.house-logo {
+
+    float:left;
+}
+
+.house-search {
+
+    float:left;
+    margin: 40px 20px;
+    width: 50%;
+    /*height: 50px;*/
+    padding:5px;
+
+}
+
+
+.house-search-q {
+
+    padding: 6px;
+    border:1px solid #c0c0c0;
+}
+
+.house-search .q {
+
+    padding: 7px;
+    border: 0px;
+    width: 92%;
+    border-right: 1px solid #c0c0c0;
+}
+
+
+.house-search-q > input[type=text] {
+
+    color: #666666;
+    -o-transition: box-shadow 1s;
+    -webkit-transition: box-shadow 1s ;-moz-transition: box-shadow 1s ;-ms-transition: box-shadow 1s ;transition: box-shadow 1s;
+}
+
+.house-search-q > input[type=text]:focus {
+
+    color: #000000;
+    box-shadow: inset 2px 2px 2px 2px #cccccc;
+
+}
+
+
+.house-search-q input[type=image] {
+
+    position: relative;
+    top: 3px;
+}
+
+.house-social-network {
+
+    float:right;
+    margin: 40px 5px;
+}
+
+.house-social-network {
+
+    text-decoration:none;
+}
+
+.house-social-network a {
+
+    background: transparent;
+    padding: 3px;
+}
+
+.house-social-network a img {
+
+    border-radius: 20px;
+}
+
+.house-social-network a:hover {
+
+    text-decoration:none;
+    opacity: 0.6;
+}
+
+
+.clearBoth {
+
+    clear: both;
+}
+
+.house-contact {
+
+    /*color: #EB7909;*/
+    /*font-weight: bold;*/
+    color: #5a5a5a;
+}
+
+/* HOUSE SLIDE SLIDE-SHOW
+------------------------------------------
+*/
+
+.jumbotron {
+
+    /*background: url(../houserentImages/slider_images/6.jpg) center;*/
+    background:  #222222;
+    color: #000000;
+    padding: 10px !important;
+    margin: 10px auto !important;
+    height: 350px;
+    border:1px solid #CCCCCC;
+    overflow: hidden;
+}
+
+.topinfo {
+
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.float{ 
+    
+    float: left;
+    }
+
+.margin {
+    
+    margin-left: 10px;
+}
+
+#timearea {
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: #333;
+   font-size: 14px;
+   width: 100%;
+   text-align: center;
+   color: orange;
+   z-index: 1000;
+}
+
+/* USER ACCOUNT AND DOCS
+----------------------------------------
+*/
+
+.houserent-user-account {
+
+    margin: 3px auto;
+}
+
+.houserent-center {
+
+    margin:auto;
+    width: 80%;
+    /*background: #000;*/
+    text-align: center;
+}
+
+
+.houserent-center > img {
+
+    max-width: 100%;
+}
+
+.houserent-center-addon {
+
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.houserent-center-addon a {
+
+    text-decoration: none;
+    color: #666666;
+}
+
+.houserent-center-addon a:hover {
+
+    color: #A700A7;
+}
+
+.houserent-center-addon a img {
+
+    transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+}
+
+.houserent-center-addon a img:hover {
+
+    opacity: 0.5;
+}
+
+.houserent-user-register {
+
+    float:left;
+    width: 25%;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+
+.houserent-user-login {
+
+    float:left;
+    width: 40%;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+.houserent-user-help {
+
+    float:left;
+    width: 25%;
+    margin: 10px;
+    height: 100px;
+}
+
+
+
+
+/* HOUSE ACCOMODATION NAV
+----------------------------------------
+*/
+
+nav {
+
+    border: 3px solid #666666 !important;
+    border-radius: 10px;
+}
+
+/* HOUSE CONTENT DISPLAY
+-----------------------------------------
+*/
+
+.houserent-testimonies {
+
+    margin:0px 20px;
+    padding: 3px 10px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+}
+
+.houserent-border-style {
+
+    border-bottom: 1px solid #CCCCCC;float:left;width: 85%;height: 20px; margin-left: 10px;
+}
+
+
+.houserent-border-style-content {
+
+    padding: 4px 10px;
+}
+
+.houserent-border-style-image {
+
+    float:left;
+    width: 18%;
+}
+
+.houserent-border-content-img {
+
+    border-radius:59px;
+    padding: 10px 40px;
+    background: #222222;
+    width: 120px;
+    line-height: 100px;
+    margin: 10px auto;
+    color: #c0c0c0;
+    font-size: 2.3em;
+    text-align: center;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    overflow: hidden;
+}
+
+
+.houserent-border-style-text {
+
+    float:left;
+    width: 80%;
+}
+
+.houserent-border-style-content > span {
+
+    font-size: 12px;
+    /*font-style: italic;*/
+    color: #666666;
+}
+
+.houserent-border-style-content-pagination {
+
+    margin-left: 10px;
+}
+
+.houserent-border-style-content-pagination:before {
+
+    content: "";
+}
+
+.remove {
+
+    float:none !important;
+}
+
+.row {
+
+    margin:auto;
+    width: 95% !important;
+}
+
+#col-house {
+    margin: 5px;
+    width: 200px !important;
+    padding:5px;
+    border:1px solid #CCCCCC !important;
+}
+
+#col-house > p {
+
+    font-size:12px;
+}
+
+#col-house > p > b {
+
+    display: block;
+}
+
+#col-house:hover {
+
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #666666;
+    -moz-box-shadow: 2px 2px 2px 2px #666666;
+    -webkit-box-shadow: 2px 2px 2px 2px #666666;
+    -ms-box-shadow: 2px 2px 2px 2px #666666;
+    -o-box-shadow: 2px 2px 2px 2px #666666;
+}
+
+#col-house img:hover {
+
+    opacity: 0.8;
+}
+
+#btn-custom {
+
+    background: #337AB7 !important;
+    border:0px;
+    font-size:13px;
+}
+
+#btn-custom:hover {
+
+    opacity: 0.8;
+}
+
+/* HOUSE ACCOMODATION COLUMN
+---------------------------------------
+*/
+
+ .house-accomodation-title {
+
+     float:left;
+     color: #A700A7;
+ }
+
+ .house-accomodation-sort {
+
+     float:right;
+ }
+
+ /* HOUSE NEWS UPDATE
+ ------------------------------------------------
+ */
+
+ .houserent-news-update {
+
+     border-top: 1px solid #CCCCCC;
+     border-bottom: 1px solid #CCCCCC;
+     padding: 20px;
+     margin: 10px auto;
+ }
+
+ .houserent-news-update-content {
+
+     margin: auto;
+     width: 80%;
+ }
+
+ .houserent-news-update-left {
+
+    margin: 30px auto;
+     padding: 5px;
+     text-transform: uppercase;
+     font-size: 1.2% !important;
+     font-family: arial black, helvetica;
+     color: #666666;
+ }
+
+ .houserent-news-left {
+
+     float: left;
+ }
+
+.txt {
+
+    margin-left: 20px;
+    font-family: inherit !important;
+}
+
+.txt input[type=image] {
+
+    float:left;
+}
+
+/*
+ NEWS LETTER
+*/
+
+.input-group-addon a {
+
+    background: url(../houserentImages/houserent_social_network/social-40-e-mail.png) no-repeat;
+    width: 30px;
+    display: block;
+}
+
+
+
+/*
+FOOTER
+
+ ----------------
+ */
+
+footer {
+
+    background: url(../houserentImages/slider_images/bgfooter.png) bottom no-repeat;
+
+}
+
+.footer b {
+
+    font-size: 1.3em;
+}
+
+.inner-footer-category ul, .inner-footer-price ul, .inner-footer-contact ul{
+
+    list-style-type: none;
+}
+
+.footer li a {
+
+    color: #666666 !important;
+}
+
+footer li a:hover {
+
+    color: #222222 !important;
+}
+
+
+.inner-footer-category, .inner-footer-price {
+
+    float:left;
+    margin-left: 25px;
+}
+
+
+.inner-footer-contact {
+
+    float: right;
+    margin-right: 35px;
+}
+
+.inner-footer-contact ul li {
+
+    margin-bottom: 5px;
+}
+
+.inner-footer-contact ul li a img{
+
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+
+.inner-footer-contact ul li a small {
+
+    color: #666666;
+    font-weight: bold;
+}
+
+.clearAll center b small {
+
+    font-size: 11px;
+    color: #000000;
+}
+
+.optionMenu{float:left;padding: 5px 10px;background: #337AB7;color: #FFFFFF;margin-top: 5px;}
+.optionAns{float:left;padding: 5px;font-weight:normal; color: #111111; }
+.optionAns:hover {cursor: pointer;}
+.sizer{ width: 100%;}
+
+
+
+/* BROWSE HOUSES
+========================================*/
+
+.houserent-browse-option {
+
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.houserent-browse-option div  select{
+
+    padding: 5px;
+    width: 100%;
+    border:1px solid #CCCCCC;
+    color: #A700A7;
+}
+
+.move-down {
+
+    margin-top: 5px;
+}
+
+.move-down a {
+
+    width: 90% !important;
+}
+
+.houserent-show {
+
+    padding: 5px;
+    margin-left: 5px;
+    /*height: 500px;*/
+    /*overflow: auto;*/
+
+}
+
+/* HOUSE-RENT PREVIEW
+==============================================
+*/
+
+.houserent-mx {
+
+    padding: 0px 8px;
+}
+
+.houserent-mx li{
+
+    list-style-type: none;
+}
+
+.houserent-mx li a img{
+
+    border: 3px solid #666666;
+}
+
+.btn-block {
+
+    width: 100%;
+}
+
+.timeRow {
+
+    float: left;
+    margin-left: 10px;
+}
+
+.size {
+
+   width: 100%;
+}
+
+.btn-area {
+
+    width: 40%;
+    float:right;
+
+}
+
+.cbt-header {
+   
+}
+
+
+.black {
+    
+    color: black
+}
+
+.grey {
+    
+    background-color: #FFFFFF;
+    border:2px solid #666666;
+    color: #b92c28;
+}
+
+.height {
+    
+    min-height: 280px;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* RESPONSIVE DESIGN
+----------------------------------------
+*/
+
+@media screen and (max-width: 767px) {
+
+    .house-search, .house-social-network {
+
+        width: 90%;
+        margin: 2px auto;
+    }
+
+
+    
+    #col-house {
+
+       float: left;
+    }
+
+    .house-logo, .house-search, .house-social-network, .houserent-center-addon {
+
+        float: none;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+
+
+    .houserent-center-addon {
+        display: inline-block;
+        margin: 5px;
+    }
+
+  /* BROWSE HOUSE { browse page}*/
+
+    .houserent-browse-option, .houserent-show {
+
+        float: none;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #col-house {
+
+        float: left;
+    }
+
+   .house-logo, .house-search, .house-social-network, .houserent-center-addon {
+
+       float: none;
+       margin: auto;
+       text-align: center;
+       width: 90%;
+   }
+
+   .houserent-center-addon {
+
+       display: inline-block;
+       margin: 5px;
+   }
+
+    /* BROWSE HOUSE { browse page}*/
+
+    .houserent-browse-option, .houserent-show {
+
+        float: none;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #col-house {
+
+        float: left !important;
+    }
+
+    .house-logo, .house-search, .house-social-network {
+
+        float: none;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .houserent-center-addon {
+
+        display: inline-block;
+        margin: 5px;
+    }
+
+    /* BROWSE HOUSE { browse page}*/
+
+    .houserent-browse-option, .houserent-show {
+
+        float: none;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and(min-width: 1200px) {
+
+}

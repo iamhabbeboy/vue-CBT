@@ -1,0 +1,239 @@
+/**** */
+
+
+
+body{
+	color:#111;
+	margin:auto;
+}
+
+#Exam-body-wrapper{
+	margin:auto;
+	width:100%;
+	position:relative;
+	
+}
+
+h1,h2{margin:0px;padding:0px;}
+
+.Exam-header {
+    width:100%;
+	line-height:100px;
+	margin:auto;
+}
+
+#header-min {
+   width:950px;
+   margin:auto;
+   color:#111111;
+   background:url(../photo_web/mini-student.jpg) 630px -20px no-repeat;
+}
+
+#header-min h1{
+  display:inline;
+    color:#111;
+}
+
+#header-min > h1 {
+	font-family: verdana,"Source Code Pro", monospace;
+	text-shadow:1px 1px #111;
+	color:#993300;
+}
+
+.Exam-navigation {
+	width:100%;
+	line-height:50px;
+	background:url(../photo_web/bg.png);
+	background-position:top center;
+	position:relative;
+	left:0;
+	top:0;
+}
+
+.inner-exam{
+	margin:auto;
+}
+
+#surerror,#otherror,#emerror,#usererror,#passerror,#gendererror,#phonerror {
+	color:red;
+	padding-left:30px;
+	font:10px verdana,arial;
+}
+
+
+
+#min-nav {
+   margin:auto;
+   font-family:calibri,verdana,arial;
+   text-transform:capitalize;
+}
+
+#min-nav ul{
+   margin:0px;
+}
+
+#min-nav ul li {
+   display:inline;
+   padding:8px;
+}
+
+#min-nav ul li a{
+	text-decoration:none;
+	color:#ddd;
+	padding:10px;
+}
+
+#min-nav ul li a:hover {
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-radius:9px;
+	color:#FFFFFF;
+	background:url(../photo_web/bg.png);
+}
+
+#min-nav ul li.first a{
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-radius:9px;
+	color:#FFFFFF;
+	background:url(../photo_web/bg.png);
+}
+
+.Exam-content {
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;	
+	margin-top:50px;
+}
+
+#Exam-side-nav {
+	float:left;
+	width:300px;
+}
+
+#Exam-side-nav label,input {
+   display:block;
+}
+
+#Exam-side-nav input[type=text],select,#Exam-side-nav input[type=password]{
+	width:230px;
+	padding:5px;
+	border:1px solid #cccccc;
+}
+
+#Exam-side-nav input[type=text]:focus,select:focus,input[type=password]:focus{
+	box-shadow:inset -2px 0px 2px 2px #ccc;
+}
+
+#Exam-side-nav label{
+	padding-top:8px;
+	font-family:tahoma,trebuchet,arial;
+	font-size:13px;
+	text-transform:capitalize;
+}
+
+#left {
+	float:left;
+}
+
+#right{
+	float:right;
+	margin-top:5px;
+}
+
+#right input[type=text],input[type=password],input[type=submit]{
+	display:inline;
+	
+}
+
+#right input[type=text]:focus,input[type=password]:focus{
+		box-shadow:inset -2px -0px 2px 2px #ccc;
+}
+
+#right input[type=submit]{
+	padding:4px;
+   border:0px;
+   color:#000000;
+   text-transform:capitalize;
+   background:url(../photo_web/bg.png);
+    font-weight:bold;
+}
+
+#right input[type=submit]:hover{
+ 	cursor:pointer;
+	color:#000000;
+		box-shadow:inset -2px 0px 3px 3px #222;
+}
+
+#Exam-side-nav input[type=submit] {
+   margin-top:15px;
+   width:240px;
+   padding:5px;
+background:url(../photo_web/bg.png);
+   border:0px;
+   color:#000000;
+   text-transform:capitalize;
+   font-weight:bold;
+}
+
+#Exam-side-nav input[type=submit]:hover{
+	cursor:pointer;
+	box-shadow:inset -2px 0px 3px 3px #222;
+}
+
+#Exam-side-nav strong {
+	font-family:arial black;
+	color:#111;
+}
+
+#other-side-nav {
+	float:right;
+	width:600px;
+}
+
+.welcome-txt {
+	font:14px arial,helvetica;
+	text-align:justify;
+	color:#111;
+}
+
+.Exam-footer {
+	margin:auto;
+	width:950px;
+	margin-top:20px;
+	font:13px Arial,helvetica;
+}
+
+#contact {
+	float:left;
+	width:400px;
+	font-size:14px;
+	margin-left:0px;
+}
+
+#contact p{
+	text-transform:capitalize;
+}
+
+#contact h2{
+	text-transform:capitalize;
+	color:#993300;
+}
+
+#about {
+	float:right;
+}	
+
+#about h2{
+	font-family:arial black;
+}
+
+
+
+h2{font:15px arial black,tahoma,arial;color:#993300;text-transform:capitalize;}
+
+.avatar{
+ margin-bottom:25px;
+ border-bottom:1px dotted #ccc;
+ padding-bottom:25px;
+}

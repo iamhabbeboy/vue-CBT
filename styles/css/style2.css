@@ -1,0 +1,116 @@
+/****/
+
+body{
+	margin:0px auto;
+	font-family: sans-serif, arial, helvetica;
+    font-size: 14px;
+}
+
+#wrapper {
+	width:950px;
+	margin:auto;
+}
+
+#header {
+    width:100%;
+	line-height:90px;
+}
+
+.left {
+   
+} 
+
+.left h1{
+   margin:0px;
+   display:inline;
+}
+
+#nav {
+  width:100%;
+  background:url(../photo_web/bg.png);
+  height:30px;
+  padding:6px;
+  padding-top:16px;
+  border-radius:9px;
+}
+
+#nav ul{
+  margin:0px;
+}
+
+#nav ul li{
+	display:inline;
+	padding-left:15px;
+	
+}
+
+#nav ul li a{
+	text-decoration:none;
+	font:16px arial,helvetica;
+	color:#CCCCCC;
+	text-transform:capitalize;
+	padding:8px;
+}
+
+#nav ul li a:hover {
+    text-decoration:none;
+	padding:8px;
+	border-radius:9px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+#content {
+  margin-top:20px;
+}
+
+.nleft {
+  width:600px;
+  float:left;
+}
+
+.nleft fieldset label{
+   display:block;
+   padding-top:5px;
+   text-transform:capitalize;
+   font-size:14px;
+}
+
+.nleft fieldset {
+  padding-top:10px;
+  padding-left:10px;
+}
+
+.nleft fieldset input[type=text],input[type=password]{
+   width:300px;
+   border:1px solid #cccccc;
+   padding:5px;
+}
+
+.nleft fieldset input[type=submit]{
+	padding:5px;
+	width:100px;
+	background:#111;
+	border:0px;
+	color:#CCC;
+	cursor:pointer;
+}	
+
+.oinfo {
+  width:300px;
+  float:right;
+}
+
+.inner {
+  background:#111;
+  color:#FFFFFF;
+  text-indent:5px;
+  line-height:30px;
+  text-transform:capitalize;
+}
+
+
+#footer {
+   margin-top:10px;
+   border-top:1px solid #cccccc;
+}

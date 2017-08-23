@@ -1,0 +1,36 @@
+ $('.myoption').html('<li class="list-group-item">'+
+                '<label for="optionA" class="sizer" ' + ((_js.ans === 'A') ? 'style="color:black"' : '')+ '>'+ 
+                '<div class="pull-left">(A)'+ 
+                     '&nbsp;<input type="radio" class="A'+q_id+'" name="option" '
+                     +'value="A" id="optionA" ' + ((_js.ans === 'A') ? 'checked' : '')+ '/>'+
+                '</div>'+
+                '<div class="pull-right A" >&nbsp; '+ a.A +' </div>'+
+               '<br class="clearAll"/>'+
+                '</label>'+
+            '</li>'+ '<li class="list-group-item">'+
+                '<label for="optionB" class="sizer" ' + ((_js.ans === 'B') ? 'style="color:black"' : '')+ '>'+ 
+                '<div class="pull-left">(B)'+ 
+                     '&nbsp;<input type="radio" class="B'+q_id+'" name="option" value="B" id="optionB" ' + ((_js.ans === 'B') ? 'checked' : '')+ '/>'+
+                '</div>'+
+                '<div class="pull-right B">&nbsp;'+ a.B +'</div>'+
+               '<br class="clearAll"/>'+
+                '</label>'+
+            '</li>' + '<li class="list-group-item">'+
+                '<label for="optionC" class="sizer" ' + ((_js.ans === 'C') ? 'style="color:black"' : '')+ '>'+ 
+                '<div class="pull-left">(C)'+ 
+                     '&nbsp;<input type="radio" class="C'+q_id+'" name="option" value="C" id="optionC" ' + ((_js.ans === 'C') ? 'checked' : '')+ '/>'+
+                '</div>'+
+                '<div class="pull-right C">&nbsp;'+ a.C +'</div>'+
+               '<br class="clearAll"/>'+
+                '</label>'+
+            '</li>' + '<li class="list-group-item">'+
+                '<label for="optionD" class="sizer" ' + ((_js.ans === 'D') ? 'style="color:black"' : '')+ '>'+ 
+                '<div class="pull-left" >(D)'+ 
+                     '&nbsp;<input type="radio" class="D'+q_id+'" name="option" value="D" id="optionD" ' + ((_js.ans === 'D') ? 'checked' : '')+ '/>'+
+                '</div>'+
+                '<div class="pull-right D">&nbsp; '+ session('get_'+q_id) + a.D +'</div>'+
+               '<br class="clearAll"/>'+
+                '</label>'+
+            '</li>'
+            );
+            

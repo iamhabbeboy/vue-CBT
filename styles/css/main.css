@@ -1,0 +1,148 @@
+/* line 4, ../sass/main.scss */
+.modal-wrap {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+/* line 16, ../sass/main.scss */
+.modal-loader {
+  width: 50%;
+  background: white;
+}
+
+ .timer {
+
+    font-size: 1.7em;
+    font-weight: bold;
+    color: green;
+    width: 50px;
+    border:0px;
+ }
+
+ .watermark-image {
+	position: fixed !important;
+	right: 500px;
+	z-index: 1000;
+ }
+
+#notify {
+    position:absolute;
+    z-index: 1000;
+    top: 0;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    display: none;
+}
+
+.innerBox {
+
+	background: rgba(0, 0, 0, 0.5);
+	width: 50%;
+	color: yellow;
+	margin: auto;
+    height: 150px;
+    padding-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 2px #000;
+    font-family:arial Narrow, arial black;
+}
+
+.closex {
+	text-align:right;
+	padding-right: 7px;
+}
+/* line 22, ../sass/main.scss */
+.wrap-course-content {
+  /*width: 70%;*/
+  margin: 20px auto;
+}
+
+/* line 28, ../sass/main.scss */
+.wrap-course-inside {
+  /*border: 6px solid #333;*/
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#font-select{
+	font-family: georgia, arial !important;
+}
+
+.btn-styled {
+
+   background: #111111 !important;
+   width: 30%;
+   display: inline;
+   color: #CCC !important;
+   text-shadow: 0px 0px #FFF !important;
+}
+
+.question_design {
+	height: 350px;
+	background: #FFF;
+    color: #666;
+    overflow: auto;
+}
+/* line 35, ../sass/main.scss */
+.header-course {
+  background: black;
+  color: white;
+  margin-top: -15px;
+  padding: 10px 5px;
+}
+
+.smaller {
+
+    font-size: 12px;
+}
+
+@font-face {
+  font-family: 'Sans Font';
+  src: url("fonts/Dosis-ExtraLight.ttf");
+}
+
+/* line 49, ../sass/main.scss */
+.font-style {
+  font-family: 'Sans Font';
+}
+
+/* line 60, ../sass/main.scss */
+.btn-design {
+  /*background: rgba($green, 0.7);*/
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  /*font-size: $size;*/
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 70, ../sass/main.scss */
+.btn-a:hover, .btn-a:active {
+  background: black !important;
+  color: orange;
+}
+
+/* line 76, ../sass/main.scss */
+.btn-cancel {
+  /*font-size: $size;*/
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white !important;
+  color: black;
+  border: 2px solid black;
+}
+
+/* line 84, ../sass/main.scss */
+.color-orange {
+  color: #8a6d3b;
+}
